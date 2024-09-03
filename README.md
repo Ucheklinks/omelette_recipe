@@ -37,8 +37,8 @@ The mobile version was done with only one media breakpoint (screen-width:576px).
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/Ucheklinks/omelette_recipe)
-- Live Site URL: [Add live site URL here](https://omelette-recipe-lemon.vercel.app/)
+- Solution URL: (https://github.com/Ucheklinks/omelette_recipe)
+- Live Site URL: (https://omelette-recipe-lemon.vercel.app/)
 
 ## My process
 
