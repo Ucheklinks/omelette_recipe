@@ -120,7 +120,7 @@ section > .attribution{
 
 I need to still work on the responsiveness and the media breakpoints across different devices on websites in order to solidify my knowledge.
 
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+
 
 
 
@@ -130,5 +130,5 @@ I need to still work on the responsiveness and the media breakpoints across diff
 - Frontend Mentor - [@Ucheklinks](https://www.frontendmentor.io/profile/Ucheklinks)
 - Twitter - [@slipdripflip](https://www.twitter.com/yourusername)
 
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
+
 
