@@ -1,0 +1,245 @@
+*{
+
+    margin:0px;
+    padding: 0px;
+    font-family: "Outfit", system-ui;
+    
+    --white: hsl(0, 0%, 100%);
+    --stone100: hsl(30, 54%, 90%);
+    --stone150: hsl(30, 18%, 87%);
+    --stone600: hsl(30, 10%, 34%);
+    --stone900: hsl(24, 5%, 18%);
+    --brown800: hsl(14, 45%, 36%);
+    --rose800: hsl(332, 51%, 32%);
+    --rose50: hsl(330, 100%, 98%);
+
+    font-size: 16px;
+
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+
+    font-style: normal;
+
+    h1,h2{
+    
+        font-family: "Young Serif", serif;
+        font-weight: 400;
+        font-style: normal;
+        
+    }
+
+    h1{
+        font-size: 40px;
+    }
+
+    h2{
+        font-size: 30px;
+        color: var(--brown800);
+    }
+
+    
+
+    h3{
+        font-size: 20px;
+    }
+}
+
+body{
+    margin: auto;
+    background-color: var(--stone100);
+    display: flex;
+    justify-content: center;
+    padding: 200px 0px;
+   
+   
+}
+
+.outer_wrapper{
+    max-width: 650px;
+    padding: 20px 20px;
+    background-color: var(--white);
+    border-radius: 25px;
+   
+}
+
+.section_spacing, .image_mobile{
+    padding-bottom: 20px;
+}
+
+span{
+    color: var(--stone900);
+}
+
+ul{
+    list-style: inside;
+    list-style-type: disc;
+    padding: 0px 5px;
+}
+
+ol{
+    list-style-position: outside;
+
+}
+
+
+
+
+
+
+
+li::marker{
+    color: var(--brown800);
+    padding-left: 30px;
+}
+
+
+ul > li{
+    padding-bottom: 20px;
+    color: var(--brown800);
+}
+
+div > h2{
+    padding-bottom: 20px;
+    color: var(--brown800);
+
+}
+
+/* hero image */
+.inner_wrapper > .hero_image>.omelette_div > img{
+    width: 100%;
+    border-radius: 25px;
+}
+
+/* intro_prep section */
+
+.intro_prep > h1{
+    padding-bottom: 20px;
+}
+
+.intro_prep > div{
+    padding-bottom: 20px;
+}
+
+.prep_div{
+    padding: 20px;
+    background-color: var(--rose50);
+    border-radius: 25px;
+}
+
+
+
+.prep_div > h3{
+    padding-bottom: 20px;
+    color: var(--rose800);
+}
+
+.prep_div > ul > li{
+    padding-bottom: 20px;
+    color: var(--brown800);
+}
+
+/* instructiions section */
+
+.instructions > div > ol{
+    padding-left: 20px;
+}
+
+
+.instructions > div > ol > li{
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+/* nutrition section */
+
+
+
+
+.nutrition > div{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    margin-left: 10px;
+    padding: 20px;
+    
+}
+
+.brown_column{
+    color: var(--brown800); 
+    font-weight: 600;
+    padding-left: 5px;
+}
+
+.nutrition > h2{
+    padding-bottom: 20px;
+}
+
+/* attribution section */
+section > .attribution{
+    display: flex;
+    justify-content: center;
+}
+
+
+/* mobile design section */
+
+@media (max-width:576px){
+   
+
+    .outer_wrapper{
+        max-width: 100%;
+       
+        padding-bottom: 20px;
+        padding-top: 0px;
+
+        background-color: var(--white); 
+        border-radius: 0px;
+        
+    }
+
+
+    .inner_wrapper{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+       
+    }
+
+    
+
+    .section_spacing{
+        padding: 0px 30px;
+    }
+
+    /* hero image section */
+
+
+    .inner_wrapper > .hero_image>.omelette_div {
+        width: 100vw;
+        
+    }
+
+    .inner_wrapper > .hero_image>.omelette_div >Img {
+        border-radius: 0px;
+        
+    }
+
+    .section_spacing > .attribution{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 20px;
+      
+    }
+
+
+    
+
+    
+
+
+}
+
+
+
+
