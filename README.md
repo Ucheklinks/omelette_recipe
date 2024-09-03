@@ -16,7 +16,6 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 - [Author](#author)
 
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -51,7 +50,6 @@ The mobile version was done with only one media breakpoint (screen-width:576px).
 
 
 
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 ### What I learned
 
